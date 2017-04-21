@@ -2,8 +2,16 @@ strong {
 	font-weight: bold
 }
 
-body {
+div.resume {
 	margin: auto;
+	width: auto;
+	max-width: 800px;
+	padding: 3%;
+	background-color: LightGoldenRodYellow ;
+}
+
+body {
+	margin: 2.5%;
 	width: 90%
 }
 
@@ -44,5 +52,6 @@ tr.classes {
 }
 
 ul {
+	padding-left: 2%;
 	list-style: circle
 }
