@@ -3,6 +3,7 @@ strong {
 }
 
 div.resume {
+	box-shadow: 3px 3px grey;
 	margin: auto;
 	width: auto;
 	max-width: 800px;
@@ -11,6 +12,7 @@ div.resume {
 }
 
 body {
+	line-height: 1.1;
 	margin: 2.5%;
 	width: 90%
 }
@@ -34,24 +36,72 @@ p.school {
 	font-weight: bold
 }
 
-/*div.classes {
+div.classes {
 	margin: auto;
 	width: 90%
-}*/
+}
 
 table.classes {
-	border-spacing: 1;
-	border-style: dashed;
 	text-align: center;
-	/*margin: auto*/
+	width: 100%
 }
 
 tr.classes {
-	border-style: dashed;
 	text-align: left;
+}
+td {
+	padding-right: auto;
+	padding-left: auto;
 }
 
 ul {
+	border-spacing: 1;
+	border-style: dashed;
 	padding-left: 2%;
 	list-style: circle
+}
+
+.button {
+	display: inline-block;
+	border-radius: 10px;
+	border: 3px solid dark-grey;
+	background: white;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 5px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	position: fixed;
+	top: 2.5%;
+	right: 2.5%;
+	z-index:2;
+	padding: 5px;
+	font-size: 1.5em;
+}
+
+.button a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button a:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover a {
+  padding-right: 25px;
+}
+
+.button:hover a:after {
+  opacity: 1;
+  right: 0;
 }
