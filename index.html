@@ -1,127 +1,446 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link type="text/css" rel="stylesheet" href="reset.css"/>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title>Connor Stutsrim - Resume</title>
-	</head>
-	<div class="resume">
-		<div class="PDF">
-			<button class="button" style="vertical-align:middle">
-				<a href="Resume.PDF">PDF Resume</a>
-			</button>
-		</div>
-		<h1 align="center">Connor J Stutsrim</h2>
-		<h2 align="center">
-			connorstutsrim@outlook.com | (518) 935-7846 | 58 Egmont Court, Delmar, NY 12054
-		</h2>
-		<body>
-			<div class="Education">
-				<br />
-				<h3>EDUCATION</h4>
-				<div class="schools">
-					<p class="school">
-						Binghamton University, SUNY, The Thomas J. Watson School of Engineering
-					</p>
-					<p class="degree">Bachelor of Science in Computer Science, May 2017</p>
-					<br />
-					<p class="school">
-						Bethlehem Central High School
-					</p>
-					<p class="degree">Advanced Regents Diploma, AP Scholar with Distinction</p>
-					<br />
-				</div>
-			</div>
-			<div class="Coursework">
-				<h3>COURSEWORK</h3>
-				<div class="classes">
-					<table class="classes">
-						<tr class="classes">
-							<td>Algorithm Design & Analysis</td>
-							<td>Design Patterns</td>
-							<td>Architecture & Programming</td>
-						</tr>
-						<tr class="classes">
-							<td>Software Engineering</td>
-							<td>Data Structures & Algorithms</td>
-							<td>Systems Programming</td>
-						</tr>
-						<tr class="classes">
-							<td>Database Systems</td>
-							<td>Adv. Computer Architecture</td>
-							<td>Operating Systems</td>
-						</tr>
-						<tr class="classes">
-							<td>Programming Languages</td>
-							<td colspan="2">Ethical, Global, and Social Issues in Computing</td>
-						</tr>
-					</table>
-					<br />
-				</div>
-			</div>
-			<div class="Skills">
-				<h3>SKILLS</h3>
-				<div class="skills">
-					<ul>
-						<li><strong>Languages:</strong> C, C++, C#, Java, JavaScript, PL/SQL, HTML, CSS, Python</li>
-						<li><strong>Frameworks/Libraries:</strong> .NET, ASP.NET MVC 5, Entity Framework 6, jQuery, JSON</li>
-						<li><strong>Software:</strong> Microsoft Office, Visual Studio, Git, GDB</li>
-						<li><strong>Operating Systems:</strong> Windows, Linux (Ubuntu, Mint, Arch)</li>
-					</ul>
-					<br />
-				</div>
-			</div>
-			<div class="Experience">
-				<h3>EXPERIENCE</h3>
-				<div class="experience">
-					<p><strong>Technician</strong>, SolveIT Business Solutions, December 2015-Present</p>
-					<ul>
-						<li>Install, setup, and troubleshoot hardware such as computers and printers at client locations</li>
-						<li>Respond to user desk-generated and remote monitoring and management (RMM) alert-generated tickets</li>
-						<li>Diagnose and solve client computer issues using N-central and Autotask</li>
-						<li>Ensure client account and equipment information is kept up-to-date in Autotask</li>
-					</ul>
-					<br />
-					<p>
-						<a href="http://enrollment-demo.azurewebsites.net">
-							<strong>Web Programming Intern</strong>, NYSNA Pension Plan & Benefits Fund, May 2015-August 2015
-						</a>
-					</p>
-					<ul>
-						<li>Developed web application for new participants to submit personal and pension information</li>
-						<li>Researched web development technologies such as ASP.NET MVC and Entity Framework</li>
-						<li>Utilized languages such as C#, HTML5, CSS3, and JavaScript including jQuery and JSON</li>
-						<li>Gathered project specifications from coworkers and previous forms</li>
-						<li>Created timeline to meet project benchmarks in a very limited timeframe</li>
-						<li>Designed application to allow registration previously maintained through paper forms</li>
-						<li>Formulated data models to represent all necessary information accurately</li>
-						<li>Engineered client and server-side logic to ensure data integrity after interruptions and unexpected behavior</li>
-						<li>Implemented client-side data validation and real-time updating based on client-side input</li>
-						<li>Worked to prevent, detect, and correct concurrency issues to prevent indeterminate behavior</li>
-					</ul>
-					<br />
-					<p><strong>Undergraduate Course Assistant</strong>, CS 301 Ethical, Social and Global Issues in Computing</p>
-					<p>Binghamton University, State University of New York, September 2014-May 2015</p>
-					<ul>
-						<li>Graded and provided extensive feedback for many technical writing assignments</li>
-						<li>Instructed students in presentation skills, resume writing, and cover letter composition</li>
-						<li>Led new UCAs in grading and oversaw feedback to ensure quality and consistency</li>
-						<li>Assisted in curriculum planning and modification for new semester</li>
-					</ul>
-					<br />
-					<p><strong>Customer Service Representative</strong>, RadioShack, May 2014-January 2015</p>
-					<ul>
-						<li>Assisted customers with and sold consumer and hobbyist electronics</li>
-						<li>Handled cash and credit transactions, totaling approximately $1200 per day</li>
-					</ul>
-					<br />
-					<p><strong>Customer Service Representative</strong>, Ship Copy & More, June 2008-January 2013</p>
-					<ul>
-						<li>Packaged and shipped items for customers, including valuable auctioned antiques and paintings</li>
-						<li>Trained junior employees in job responsibilities</li>
-					</ul>
-				</div>
-			</div>
-		</body>
-	</div>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Connor Stutsrim - Portfolio</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Theme CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/resume.style.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top" class="index">
+        <div id="background" z-index="-1">
+            <img src="img/background2.jpg" alt="" z-index="-1"/>
+        </div>
+        
+        <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+        <!-- Navigation -->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">Connor Stutsrim</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#resume">Resume</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                        <!--
+                        <li class="page-scroll">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <div class="container" id="maincontent" tabindex="-1">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-text">
+                            <h1 class="name">Connor Stutsrim</h1>
+                            <hr class="star-light">
+                            <span class="skills">Web Developer</span>
+                        </div>
+                        <img class="img-responsive" id="avatar" src="img/connor.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Portfolio Grid Section -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Portfolio</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/enrollment.png" class="img-responsive" alt="Enrollment App">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/Excel-Icon.png" class="img-responsive" alt="Slice of cake">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/PowerPoint-Icon.png" class="img-responsive" alt="Circus tent">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Connor Stutsrim</h2>
+                        <p align="center">
+                            connorstutsrim@outlook.com | (518) 935-7846 | 58 Egmont Court, Delmar, NY 12054
+                        </p><hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="resume">
+                        
+                        <div class="Education">
+                            <h3>EDUCATION</h3>
+                            <div class="schools">
+                                <p class="school">
+                                Binghamton University, SUNY, The Thomas J. Watson School of Engineering
+                                </p>
+                                <p class="degree">Bachelor of Science in Computer Science, May 2017</p>
+                                <br />
+                                <p class="school">
+                                Bethlehem Central High School
+                                </p>
+                                <p class="degree">Advanced Regents Diploma, AP Scholar with Distinction</p>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="Coursework">
+                            <h3>COURSEWORK</h3>
+                            <div class="classes">
+                                <table class="classes">
+                                    <tr class="classes">
+                                        <td>Algorithm Design & Analysis</td>
+                                        <td>Design Patterns</td>
+                                        <td>Architecture & Programming</td>
+                                    </tr>
+                                    <tr class="classes">
+                                        <td>Software Engineering</td>
+                                        <td>Data Structures & Algorithms</td>
+                                        <td>Systems Programming</td>
+                                    </tr>
+                                    <tr class="classes">
+                                        <td>Database Systems</td>
+                                        <td>Adv. Computer Architecture</td>
+                                        <td>Operating Systems</td>
+                                    </tr>
+                                    <tr class="classes">
+                                        <td>Programming Languages</td>
+                                        <td colspan="2">Ethical, Global, and Social Issues in Computing</td>
+                                    </tr>
+                                </table>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="Skills">
+                            <h3>SKILLS</h3>
+                            <div class="skills">
+                                <ul>
+                                    <li><strong>Languages:</strong> C, C++, C#, Java, JavaScript, PL/SQL, HTML, CSS, Python</li>
+                                    <li><strong>Frameworks/Libraries:</strong> .NET, ASP.NET MVC 5, Entity Framework 6, jQuery, JSON</li>
+                                    <li><strong>Software:</strong> Microsoft Office, Visual Studio, Git, GDB</li>
+                                    <li><strong>Operating Systems:</strong> Windows, Linux (Ubuntu, Mint, Arch)</li>
+                                </ul>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="Experience">
+                            <h3>EXPERIENCE</h3>
+                            <div class="experience">
+                                <p><strong>Technician</strong>, SolveIT Business Solutions, December 2015-Present</p>
+                                <ul>
+                                    <li>Install, setup, and troubleshoot hardware such as computers and printers at client locations</li>
+                                    <li>Respond to user desk-generated and remote monitoring and management (RMM) alert-generated tickets</li>
+                                    <li>Diagnose and solve client computer issues using N-central and Autotask</li>
+                                    <li>Ensure client account and equipment information is kept up-to-date in Autotask</li>
+                                </ul>
+                                <br />
+                                <p><strong>Web Programming Intern</strong>, NYS Nurses Association Pension Plan & Benefits Fund, May 2015-August 2015</p>
+                                <ul>
+                                    <li>Developed web application for new participants to submit personal and pension information</li>
+                                    <li>Researched web development technologies such as ASP.NET MVC and Entity Framework</li>
+                                    <li>Utilized languages such as C#, HTML5, CSS3, and JavaScript including jQuery and JSON</li>
+                                    <li>Gathered project specifications from coworkers and previous forms</li>
+                                    <li>Created timeline to meet project benchmarks in a very limited timeframe</li>
+                                    <li>Designed application to allow registration previously maintained through paper forms</li>
+                                    <li>Formulated data models to represent all necessary information accurately</li>
+                                    <li>Engineered client and server-side logic to ensure data integrity after interruptions and unexpected behavior</li>
+                                    <li>Implemented client-side data validation and real-time updating based on client-side input</li>
+                                    <li>Worked to prevent, detect, and correct concurrency issues to prevent indeterminate behavior</li>
+                                </ul>
+                                <br />
+                                <p><strong>Undergraduate Course Assistant</strong>, CS 301 Ethical, Social and Global Issues in Computing</p>
+                                <p>Binghamton University, State University of New York, September 2014-May 2015</p>
+                                <ul>
+                                    <li>Graded and provided extensive feedback for many technical writing assignments</li>
+                                    <li>Instructed students in presentation skills, resume writing, and cover letter composition</li>
+                                    <li>Led new UCAs in grading and oversaw feedback to ensure quality and consistency</li>
+                                    <li>Assisted in curriculum planning and modification for new semester</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>About</h2>
+                        <hr class="star-light">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <p>Connor Stutsrim is a web developer who is passionate about web stuff and enjoys creating good web stuff that people like to use. He is seeking work at a place that will give him stuff to do and money for buying stuff.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>There's even more stuff to be said about Connor Stutsrim! He did some stuff at Binghamton University and is now finishing that stuff up at the University at Albany.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center" id="contact">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Contact Info</h3>
+                            <p>connorstutsrim@outlook.com
+                            <br>(518) 935-7846
+                            <br>58 Egmont Court,
+                            <br>Delmar, NY 12054</p>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Links</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#" class="btn-social btn-outline"><span class="sr-only">Github</span><i class="fa fa-fw fa-github"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>About Freelancer</h3>
+                            <p>Who knows what stuff should go here. It could even be some lorem ipsem stuff.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; Connor Stutsrim 2016
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+
+        <!-- Portfolio Modals -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Web Enrollment Application</h2>
+                                <hr class="star-primary">
+                                <a href="https://enrollment-demo.azurewebsites.net">
+                                    <img src="img/portfolio/enrollment.png" class="img-responsive img-centered" alt="">
+                                </a>
+                                <p>An ASP.NET MVC application for users to register extensive personal, medical, and family information. This project focused on client-side validation for responsiveness, device and browser-agnostic performance, and robust application-flow.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>NYSNA Pension Plan and Benefits Fund</strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>May 2015 - August 2015</strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Web Development</strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Multi-Source Pivot Table Analytics</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/Excel-Icon.png" class="img-responsive img-centered" alt="">
+                                <p>An Excel-based script that sourced, compiled, analyzed, and organized data from multiple disparate sources for use in a user-friendly PivotTable. This project used VBA for cross-environment support and Power Pivot to support the heierarchical nature of the source data.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>SolveIT Business Solutions
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>March 2017 - May 2017
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Desktop Application Developemtn
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Workbook and Presentation-Creation Application</h2>
+                                <h3>Language Migration and Applicaiton Maitenance</h3>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/PowerPoint-Icon.png" class="img-responsive img-centered" alt="">
+                                <p>An Excel-based script that analyzed user-input data and generated multiple different types of Excel reports and PowerPoint presentations for use by the client. This project was ported from a legacy Visual Basic 6.0 to Visual Basic for Applications for a significant increase in program portability, user-friendliness, maintainability. In addition, features were added, bugs were fixed, and UX and UI were improved.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Theme JavaScript -->
+        <script src="js/freelancer.min.js"></script>
+
+        </body>
+
 </html>
