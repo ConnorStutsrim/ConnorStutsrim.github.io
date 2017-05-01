@@ -520,6 +520,11 @@ fieldset[disabled] .btn-success.active {
     opacity: 0;
     display: none;
 }
+.portfolio-modal iframe {
+	height: 60%;
+	width: 100%;
+	border: none;
+}
 
 #resume {
     background: white;
