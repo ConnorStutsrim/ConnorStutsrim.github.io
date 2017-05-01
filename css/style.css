@@ -523,6 +523,10 @@ fieldset[disabled] .btn-success.active {
     color: black;
 }
 
+#resume .container {
+    width: auto;
+}
+
 #about {
     color: white;
 }
