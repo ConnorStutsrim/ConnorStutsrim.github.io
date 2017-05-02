@@ -520,6 +520,9 @@ fieldset[disabled] .btn-success.active {
     opacity: 0;
     display: none;
 }
+.portfolio-modal .container .row {
+	width: 100%;
+}
 .portfolio-modal iframe {
 	height: 60%;
 	width: 100%;
