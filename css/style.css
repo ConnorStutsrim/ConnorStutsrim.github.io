@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #18BC9C;
+    color: rgb(119,127,173);
 }
 h1,
 h2,
@@ -29,6 +29,7 @@ h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+    color: rgb(119,127,173);
 }
 hr.star-light,
 hr.star-primary {
@@ -53,7 +54,7 @@ hr.star-light {
     border-color: white;
 }
 hr.star-light:after {
-    background-color: #18BC9C;
+    background-color: rgb(119,127,173);
     color: white;
 }
 hr.star-primary {
@@ -61,7 +62,7 @@ hr.star-primary {
 }
 hr.star-primary:after {
     background-color: white;
-    color: #2C3E50;
+    color: rgb(119,127,173);
 }
 .img-centered {
     margin: auto;
@@ -125,7 +126,7 @@ header .intro-text .skills {
     border-radius: 50%;
 }
 .navbar-custom {
-    background: #2C3E50;
+    background: rgb(44,47,63);
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -147,7 +148,7 @@ header .intro-text .skills {
     color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-    color: #18BC9C;
+    color: rgb(119,127,173);
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -155,13 +156,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
     color: white;
-    background: #18BC9C;
+    background: rgb(119,127,173);
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
     color: white;
-    background: #18BC9C;
+    background: rgb(119,127,173);
 }
 .navbar-custom .navbar-toggle {
     color: white;
@@ -171,9 +172,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-    background-color: #18BC9C;
+    background-color: rgb(119,127,173);
     color: white;
-    border-color: #18BC9C;
+    border-color: rgb(119,127,173);
 }
 @media (min-width: 768px) {
     .navbar-custom {
@@ -203,7 +204,7 @@ section h2 {
     font-size: 3em;
 }
 section.success {
-    background: #18BC9C;
+    background: rgb(119,127,173);
     color: white;
 }
 @media (max-width: 767px) {
@@ -215,7 +216,7 @@ section.success {
     }
 }
 #portfolio {
-    background: rgb(24, 188, 156);
+    background: rgb(44,47,63);
 }
 
 #portfolio .portfolio-item {
@@ -229,7 +230,7 @@ section.success {
     margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-    background: rgba(24, 188, 156, 0.9);
+    background: rgba(119,127,173,0.8);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -310,7 +311,7 @@ section.success {
     opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-    color: #18BC9C;
+    color: rgb(119,127,173);
 }
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eeeeee;
@@ -344,7 +345,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    color: #18BC9C;
+    color: rgb(119,127,173);
     background: white;
     border: solid 2px white;
 }
@@ -392,8 +393,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
     color: white;
-    background-color: #18BC9C;
-    border-color: #18BC9C;
+    background-color: rgb(119,127,173);
+    border-color: rgb(119,127,173);
     font-weight: 700;
 }
 .btn-success:hover,
@@ -402,8 +403,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
     color: white;
-    background-color: #128f76;
-    border-color: #11866f;
+    background-color: rgba(119,127,173,0.7);
+    border-color: rgba(119,127,173,0.9);
 }
 .btn-success:active,
 .btn-success.active,
@@ -425,11 +426,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-    background-color: #18BC9C;
-    border-color: #18BC9C;
+    background-color: rgb(119,127,173);
+    border-color: rgb(119,127,173);
 }
 .btn-success .badge {
-    color: #18BC9C;
+    color: rgb(119,127,173);
     background-color: white;
 }
 .btn-social {
@@ -558,7 +559,7 @@ fieldset[disabled] .btn-success.active {
     position: absolute;
     left: 0px;
     top: 0px;
-    background: #18BC9C;
+    background: rgb(119,127,173);
     outline: 0;
     transition: top 0.1s ease-in, background 0.5s linear;
 }
