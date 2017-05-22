@@ -1,14 +1,14 @@
 div.resume {
 	margin: auto;
 	width: auto;
-    max-width: 1000px;
+	max-width: 1000px;
 	padding: 3%;
-    padding-top: 0;
-    line-height: 1.1;
+	padding-top: 0;
+	line-height: 1.1;
 }
 div.resume p {
-    margin: 0;
-    font-size: 18px;
+	margin: 0;
+	font-size: 18px;
 }
 div.resume div.schools, div.classes, div.skills, div.experiences {
 	margin: auto;
@@ -21,7 +21,7 @@ div.resume p.school {
 
 div.resume table.classes {
 	text-align: center;
-    width: 100%;
+	width: 100%;
 }
 
 div.resume tr.classes {
@@ -29,13 +29,13 @@ div.resume tr.classes {
 }
 
 div.resume td {
-    padding-left: auto;
-    padding-right: auto;
-    font-size: 18px;
+	padding-left: auto;
+	padding-right: auto;
+	font-size: 18px;
 }
 
 div.resume ul {
-    font-size: 18px;
+	font-size: 18px;
 	padding-left: 2%;
 	list-style: circle
 }
