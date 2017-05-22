@@ -196,6 +196,15 @@ header .intro-text .skills {
 		font-size: 1.5em;
 	}
 }
+.navbar-nav .social {
+	margin: 0px 5px 0px 5px;
+}
+.navbar-nav .social a {
+	margin: 0;
+	display: inline-block;
+	line-height: 45px;
+	padding: 0px;
+}
 section {
 	padding: 100px 0;
 }
