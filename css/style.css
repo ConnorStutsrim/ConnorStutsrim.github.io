@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
@@ -493,7 +488,8 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content .container {
 	margin: auto;
-	width: 100%
+	width: 100%;
+	height: 100%;
 }
 .portfolio-modal .close-modal {
 	position: absolute;
@@ -538,7 +534,7 @@ fieldset[disabled] .btn-success.active {
 	width: 100%;
 }
 .portfolio-modal iframe {
-	height: 60%;
+	height: 800px;
 	width: 100%;
 	border: none;
 }
