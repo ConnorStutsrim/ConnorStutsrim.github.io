@@ -476,6 +476,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal {
 	min-height: 101%;
+}
 .portfolio-modal .modal-content {
 	border-radius: 0;
 	background-clip: border-box;
