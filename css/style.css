@@ -341,6 +341,11 @@ footer .footer-below {
 	padding: 25px 0;
 	background-color: rgb(44,47,63);
 }
+.btn-default {
+	color: white;
+	background-color: rgb(119,127,173);
+	font-size: 1.25em;
+}
 .btn-outline {
 	color: white;
 	font-size: 20px;
@@ -469,6 +474,8 @@ fieldset[disabled] .btn-success.active {
 	border-radius: 100%;
 	line-height: 28px;
 }
+.portfolio-modal {
+	min-height: 101%;
 .portfolio-modal .modal-content {
 	border-radius: 0;
 	background-clip: border-box;
