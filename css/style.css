@@ -98,8 +98,9 @@ header .intro-text .name {
 	font-weight: 700;
 	font-size: 2em;
 }
-header .intro-text .skills {
+header .intro-text .title {
 	font-size: 1.25em;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 }
 @media (min-width: 768px) {
@@ -110,7 +111,7 @@ header .intro-text .skills {
 	header .intro-text .name {
 		font-size: 4.75em;
 	}
-	header .intro-text .skills {
+	header .intro-text .title {
 		font-size: 1.75em;
 	}
 }
