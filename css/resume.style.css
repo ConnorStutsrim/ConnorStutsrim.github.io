@@ -12,7 +12,7 @@ div.resume p {
 }
 div.resume div.schools, div.classes, div.skills, div.experiences {
 	margin: auto;
-	width: 90%;
+	width: 100%;
 }
 
 div.resume p.school {
