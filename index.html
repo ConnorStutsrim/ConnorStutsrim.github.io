@@ -1,495 +1,526 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
-	<head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="Connor Stutsrim's portfolio">
+	<meta name="author" content="Connor Stutsrim">
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Connor Stutsrim's portfolio">
-		<meta name="author" content="Connor Stutsrim">
+	<title>Connor Stutsrim - Portfolio</title>
 
-		<title>Connor Stutsrim - Portfolio</title>
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
 
-		<!-- Bootstrap Core CSS -->
-		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 
-		<!-- Theme CSS -->
-		<link href="css/style.css" rel="stylesheet">
-		<link href="css/resume.style.css" rel="stylesheet">
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/bootstrap_style.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/resume_style.css" rel="stylesheet" />
+</head>
 
-		<!-- Custom Fonts -->
-		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
-	</head>
-
-	<body id="page-top" class="index">
-		<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
-
-		<div id="background" z-index="-1">
-			<img src="img/background.jpg" alt="" z-index="-1"/>
+<body id="page-top" class="index">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Connor Stutsrim</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+					<li class="social">
+						<a class="btn btn-outline-light btn-social mx-1" href="https://github.com/ConnorStutsrim">
+							<i class="fab fa-fw fa-github"></i>
+						</a>
+					</li>
+					<li class="social">
+						<a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/connor-stutsrim-5b6902b5/">
+							<i class="fab fa-fw fa-linkedin-in"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
+	</nav>
 
-		<!-- Navigation -->
-		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-					</button>
-					<a class="navbar-brand" href="#page-top">Connor Stutsrim</a>
-				</div>
+	<!-- Masthead-->
+	<header class="masthead bg-transparent text-white text-center" id="masthead">
+		<div class="container d-flex align-items-center flex-column">
+			<!-- Masthead Heading-->
+			<h1 class="masthead-heading text-uppercase text-primary mb-0">Connor Stutsrim</h1>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="hidden">
-							<a href="#page-top"></a>
-						</li>
-						<li class="page-scroll">
-							<a href="#portfolio">Portfolio</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#resume">Resume</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#about">About</a>
-						</li>
-						<li class="social">
-							<a href="https://github.com/ConnorStutsrim" class="btn-social btn-outline">
-								<span class="sr-only">Github</span>
-								<i class="fa fa-fw fa-github"></i>
-							</a>	
-						</li>
-						<li class="social">
-							<a href="https://www.linkedin.com/in/connor-stutsrim-5b6902b5/" class="btn-social btn-outline">
-								<span class="sr-only">Linked In</span>
-								<i class="fa fa-fw fa-linkedin"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /.navbar-collapse -->
+			<!-- Icon Divider-->
+			<div class="divider-custom divider-light">
+				<div class="divider-custom-line"></div>
+				<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+				<div class="divider-custom-line"></div>
 			</div>
-			<!-- /.container-fluid -->
-		</nav>
 
-		<!-- Header -->
-		<header>
-			<div class="container" id="maincontent" tabindex="-1">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="intro-text">
-							<h1 class="name">Connor Stutsrim</h1>
-							<hr class="star-light">
-							<span class="title">Developer</span>
-						</div>
-						<img src="img/Connor.png" class="img-responsive" id="avatar" alt="">
-					</div>
-				</div>
-			</div>
-		</header>
-
-		<!-- Portfolio Grid Section -->
-		<section id="portfolio">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2>Portfolio</h2>
-						<hr class="star-primary">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4 portfolio-item">
-						<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img src="img/portfolio/Enrollment.png" class="img-responsive" alt="Enrollment App">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img src="img/portfolio/Portfolio.png" class="img-responsive" alt="This site">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img src="img/portfolio/PowerPoint-Icon.png" class="img-responsive" alt="PowerPoint Project">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img src="img/portfolio/Excel-Icon.png" class="img-responsive" alt="Excel Project">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Resume Section -->
-		<section id="resume">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2>Connor Stutsrim</h2>
-						<p align="center">
-							<a href="mailto:connorstutsrim@Outlook.com">ConnorStutsrim@Outlook.com</a>
-							 | 
-							<a href="http://Connor.Stutsr.im">Connor.Stutsr.im</a>
-							 | 58 Egmont Court, Delmar, NY 12054
-						</p><hr class="star-primary">
-					</div>
-				</div>
-				<div class="row">
-					<div class="resume">
-
-						<div class="Education">
-							<h3>EDUCATION</h3>
-							<div class="schools">
-								<p class="school">
-								Binghamton University, SUNY, The Thomas J. Watson School of Engineering
-								</p>
-								<p class="degree">Bachelor of Science in Computer Science, May 2017</p>
-								<br />
-							</div>
-						</div>
-						<div class="Skillset">
-							<h3>SKILLS</h3>
-							<div class="skills">
-								<ul>
-									<li><strong>Languages:</strong> Java, C#, C++, C, JavaScript, SQL, HTML, CSS, Python, FoxPro</li>
-									<li><strong>Frameworks/Libraries:</strong> .NET, ASP.NET MVC 5, Entity Framework 6, jQuery, JSON</li>
-									<li><strong>Software:</strong> Microsofy Visual Studio, Eclipse, IBM Rational Application Developer, Microsoft Office, Git, GDB</li>
-								</ul>
-								<br />
-							</div>
-						</div>
-						<div class="Experience">
-							<h3>EXPERIENCE</h3>
-							<div class="experiences">
-								<p><strong>Information Technology Specialist 2 (Programming)</strong>, NYS Office of IT Services, December 2017 - Present</p>
-								<ul>
-									<li>Develop modern Utility Real Property Valuation web application in Java Spring-based eMPIRE framework</li>
-									<li>Participated in design of user interface and experience design of modernized Utility Valuation application</li>
-									<li>Compose systems analysis documentation of FoxPro Utility Valuation applications for Utility Valuation Modernization Project </li>
-									<li>Assist coworkers with Java development and design</li>
-									<li>Maintain legacy Microsoft FoxPro Utility Valuation applications</li>
-									<li>Maintain and monitor Microsoft SQL Server Integration Services packages for population of SQL Server databases and SQL Server Analysis Services data warehouses</li>
-								</ul>
-								<br />
-								<p><strong>Software Developer/IT Technician</strong>, SolveIT Business Solutions, December 2015 - December 2017</p>
-								<ul>
-									<li>Developed custom websites and software solutions for clients using VBA, ASP.NET MVC, JavaScript, CSS, HTML, and other technologies</li>
-									<li>Gathered project requirements and generate time and cost estimates for clients</li>
-									<li>Installed, setup, and troubleshoot hardware such as computers and printers at client locations</li>
-									<li>Responded to user desk-generated and remote monitoring and management (RMM) alert-generated tickets</li>
-									<li>Diagnosed and solve client computer issues using N-central and Autotask</li>
-									<li>Ensured client account and equipment information is kept up-to-date in Autotask</li>
-								</ul>
-								<br />
-								<p><strong>Web Programming Intern</strong>, NYSNA Pension Plan & Benefits Fund, May 2015 - August 2015</p>
-								<ul>
-									<li>Developed web application for new participants to submit personal and pension information</li>
-									<li>Researched web development technologies such as ASP.NET MVC and Entity Framework</li>
-									<li>Utilized languages such as C#, HTML5, CSS3, and JavaScript including jQuery and JSON</li>
-									<li>Gathered project specifications from coworkers and previous forms</li>
-									<li>Created timeline to meet project benchmarks in a very limited timeframe</li>
-									<li>Designed application to allow registration previously maintained through paper forms</li>
-									<li>Formulated data models to represent all necessary information accurately</li>
-									<li>Engineered client and server-side logic to ensure data integrity after interruptions and unexpected behavior</li>
-									<li>Implemented client-side data validation and real-time updating based on client-side input</li>
-									<li>Worked to prevent, detect, and correct concurrency issues to prevent indeterminate behavior</li>
-								</ul>
-								<br />
-								<p><strong>Undergraduate Course Assistant</strong>, CS 301 Ethical, Social and Global Issues in Computing</p>
-								<p>Binghamton University, State University of New York, September 2014-May 2015</p>
-								<ul>
-									<li>Graded and provided extensive feedback for many technical writing assignments</li>
-									<li>Instructed students in presentation skills, resume writing, and cover letter composition</li>
-									<li>Led new UCAs in grading and oversaw feedback to ensure quality and consistency</li>
-									<li>Assisted in curriculum planning and modification for new semester</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12 col-md-12 text-center">
-				<h2>
-					<a href="Resume.pdf">PDF résumé</a>
-				</h2>
-			</div>
-		</section>
-
-		<!-- About Section -->
-		<section id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2>About</h2>
-						<hr class="star-light">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-lg-offset-2">
-						<p>Connor Stutsrim is an aspiring developer and recent Computer Science graduate of Binghamton University. He is seeking opportunities where he can continue to learn and develop himself professionally.
-						</p>
-					</div>
-					<div class="col-lg-4">
-						<p>Connor is inquisitive and enjoys reading about topics that interest him. In his free time, Connor likes video, card, and role-playing games and dislikes writing about himself.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Footer -->
-		<footer class="text-center" id="contact">
-			<div class="footer-below">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							Copyright &copy; Connor Stutsrim 2016
-						</div>
-						<div class="col-lg-12">
-							ConnorStutsrim@Outlook.com
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-		<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-			<a class="btn btn-primary" href="#page-top">
-				<i class="fa fa-chevron-up"></i>
-			</a>
+			<!-- Masthead Subheading-->
+			<p class="masthead-subheading font-weight-light mb-0">Software Engineer - Web Developer</p>
 		</div>
+	</header>
 
-		<!-- Portfolio Modals -->
-		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+	<!-- Portfolio Section-->
+	<section class="page-section portfolio bg-primary text-white mb-0" id="portfolio">
+		<div class="container">
+			<!-- Portfolio Section Heading-->
+			<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+			<!-- Icon Divider-->
+			<div class="divider-custom">
+				<div class="divider-custom-line"></div>
+				<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+				<div class="divider-custom-line"></div>
+			</div>
+
+			<!-- Portfolio Grid Items-->
+			<div class="row">
+
+				<!-- Portfolio Item 1-->
+				<div class="col-md-6 col-lg-4 mb-5">
+					<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/Enrollment.png" alt="Enrollment App" />
+					</div>
+				</div>
+
+				<!-- Portfolio Item 2-->
+				<div class="col-md-6 col-lg-4 mb-5">
+					<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/Portfolio.png" alt="This site" />
+					</div>
+				</div>
+
+				<!-- Portfolio Item 3-->
+				<div class="col-md-6 col-lg-4 mb-5">
+					<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/PowerPoint-Icon.png" alt="PowerPoint Project" />
+					</div>
+				</div>
+
+				<!-- Portfolio Item 4-->
+				<div class="col-md-6 col-lg-4 mb-5">
+					<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/Excel-Icon.png" alt="Excel Project" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Resume Section -->
+	<section class="page-section bg-tertiary mb-0" id="resume">
+		<div class="container">
+			<!-- Resume Section Heading-->
+			<div class="row">
+				<div class="col-lg-2">
+				</div>
+				<div class="col-lg-8 text-center">
+					<h2>Connor Stutsrim</h2>
+					<p align="center">
+						<a href="mailto:connorstutsrim@Outlook.com">ConnorStutsrim@Outlook.com</a>
+						|
+						<a href="http://Connor.Stutsr.im">Connor.Stutsr.im</a>
+						| 58 Egmont Court, Delmar, NY 12054
+					</p><hr class="star-primary">
+				</div>
+				<div class="col-lg-2">
+				</div>
+			</div>
+			<!-- Resume Section Content-->
+			<div class="row">
+				<div class="col-lg-0 col-xl-1">
+				</div>
+				<div class="resume col-lg-12 col-xl-10">
+					<div class="Education">
+						<h3>EDUCATION</h3>
+						<div class="schools">
+							<p class="school">
+								Binghamton University, State University of New York, The Thomas J. Watson School of Engineering
+							</p>
+							<p class="degree">Bachelor of Science in Computer Science, May 2017</p>
+							<br />
+						</div>
+					</div>
+					<div class="Skillset">
+						<h3>SKILLS</h3>
+						<div class="skills">
+							<ul>
+								<li><strong>Languages:</strong> Java, C#, C++, C, JavaScript, SQL, HTML, CSS, Python, FoxPro</li>
+								<li><strong>Frameworks/Libraries:</strong> .NET, ASP.NET MVC 5, Entity Framework 6, jQuery, JSON</li>
+								<li><strong>Software:</strong> Microsofy Visual Studio, Eclipse, IBM Rational Application Developer, Microsoft Office, Git, GDB</li>
+							</ul>
+							<br />
+						</div>
+					</div>
+					<div class="Experience">
+						<h3>EXPERIENCE</h3>
+						<div class="experiences">
+							<p><strong>Information Technology Specialist 2 (Programming)</strong>, NYS Office of IT Services, December 2017 - Present</p>
+							<ul>
+								<li>Develop modern Utility Real Property Valuation web application in Java Spring-based eMPIRE framework</li>
+								<li>Participate in design of user interface and experience design of modernized Utility Valuation application</li>
+								<li>Compose systems analysis documentation of FoxPro Utility Valuation applications for Modernization Project </li>
+								<li>Assist coworkers with Java and general web development and design</li>
+								<li>Maintain legacy Microsoft FoxPro Utility Valuation applications</li>
+								<li>Maintain and monitor Microsoft SQL Server Integration Services packages for population of SQL Server databases and SQL Server Analysis Services data warehouses</li>
+							</ul>
+							<br />
+							<p><strong>Software Developer/IT Technician</strong>, SolveIT Business Solutions, December 2015 - December 2017</p>
+							<ul>
+								<li>Developed custom websites and software solutions for clients using VBA, ASP.NET MVC, JavaScript, CSS, HTML, and other technologies</li>
+								<li>Gathered project requirements and generate time and cost estimates for clients</li>
+								<li>Installed, setup, and troubleshoot hardware such as computers and printers at client locations</li>
+								<li>Responded to user desk-generated and remote monitoring and management (RMM) alert-generated tickets</li>
+								<li>Diagnosed and solve client computer issues using N-central and Autotask</li>
+								<li>Ensured client account and equipment information is kept up-to-date in Autotask</li>
+							</ul>
+							<br />
+							<p><strong>Web Programming Intern</strong>, NYSNA Pension Plan & Benefits Fund, May 2015 - August 2015</p>
+							<ul>
+								<li>Developed web application for new participants to submit personal and pension information</li>
+								<li>Researched web development technologies such as ASP.NET MVC and Entity Framework</li>
+								<li>Utilized languages such as C#, HTML5, CSS3, and JavaScript including jQuery and JSON</li>
+								<li>Gathered project specifications from coworkers and previous forms</li>
+								<li>Created timeline to meet project benchmarks in a very limited timeframe</li>
+								<li>Designed application to allow registration previously maintained through paper forms</li>
+								<li>Formulated data models to represent all necessary information accurately</li>
+								<li>Engineered client and server-side logic to ensure data integrity after interruptions and unexpected behavior</li>
+								<li>Implemented client-side data validation and real-time updating based on client-side input</li>
+								<li>Worked to prevent, detect, and correct concurrency issues to prevent indeterminate behavior</li>
+							</ul>
+							<br />
+							<p><strong>Undergraduate Course Assistant</strong>, CS 301 Ethical, Social, and Global Issues in Computing</p>
+							<p>Binghamton University, State University of New York, September 2014 - May 2015</p>
+							<ul>
+								<li>Graded and provided extensive feedback for many technical writing assignments</li>
+								<li>Instructed students in presentation skills, resume writing, and cover letter composition</li>
+								<li>Led new UCAs in grading and oversaw feedback to ensure quality and consistency</li>
+								<li>Assisted in curriculum planning and modification for new semester</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-0 col-xl-1">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 col-lg-12 text-center">
+			<h2>
+				<a href="Resume.pdf" class="bg-primary text-white" id="resume-button">PDF RESUME</a>
+			</h2>
+		</div>
+	</section>
+
+	<!-- About Section -->
+	<section class="page-section bg-transparent text-white mb-0" id="about">
+		<div class="container d-flex align-items-center flex-column">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>About</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-12 text-center">
+					<p>
+						Connor Stutsrim is an aspiring developer and recent Computer Science graduate of Binghamton University. He is seeking opportunities where he can continue to learn and develop himself professionally.
+					</p>
+				</div>
+				<div class="col-lg-6 col-md-12 text-center">
+					<p>Connor is inquisitive and enjoys reading about topics that interest him. In his free time, Connor likes video, card, and role-playing games and dislikes writing about himself.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section class="copyright py-4 text-center text-white">
+		<div class="container">
+			<p>
+				Copyright &copy; Connor Stutsrim <script>document.write(new Date().getFullYear())</script><br />
+				ConnorStutsrim@Outlook.com
+			</p>
+		</div>
+	</section>
+
+	<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+	<div class="scroll-to-top d-lg-none position-fixed">
+		<a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+			<i class="fa fa-chevron-up"></i>
+		</a>
+	</div>
+
+	<!-- Portfolio Modals -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
 			<div class="modal-content">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-lg-offset-0">
-							<div class="modal-body">
-								<h2>Web Enrollment Application</h2>
-								<hr class="star-primary">
-								<div class="col-md-12 col-lg-8">
-									<img src="img/portfolio/Enrollment.png" class="img-responsive img-centered" alt="">
-								</div>
-								<div class="col-md-12 col-lg-4">
-									<a href="https://enrollment-demo.azurewebsites.net">
-										<p>
-										<strong>Application Demo</strong>
-										</p>
-									</a>
-									<p>An ASP.NET MVC application for users to register extensive personal, medical, and family information. This project focused on client-side validation for responsiveness, device and browser-agnostic performance, and robust application-flow. This application was developed from the beginning stages of specification gathering to the end with presenting the final project. It served as a proof of concept of the viability of replacing existing paper forms for information-gathering and human labor for input verification.</p>
-									<ul class="list-inline item-details">
-										<li>Technologies used:</li>
-										<li><strong>ASP.NET MVC 5</strong></li>
-										<li><strong>C# (Razor and LINQ)</strong></li>
-										<li><strong>HTML</strong></li>
-										<li><strong>JavaScript</strong></li>
-										<li><strong>CSS</strong></li>
-										<li><strong>Entity Framework 6</strong></li>
-										<li><strong>Bootstrap</strong></li>
-										<li><strong>Git</strong></li>
-										<li><strong>Visual Studio</strong></li>
-									</ul>
-									<ul class="list-inline item-details">
-										<li>Source:
-											<strong>
-												<a href="https://github.com/ConnorStutsrim/Enrollment-Demo">
-													Github.com/ConnorStutsrim/Enrollment-Demo
-												</a>
-											</strong>
-										</li>
-									</ul>
-									<ul class="list-inline item-details">
-										<li>Client:
-											<strong>NYSNA Pension Plan and Benefits Fund</strong>
-										</li>
-										<li>Date:
-											<strong>May 2015 - August 2015</strong>
-										</li>
-									</ul>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true"><i class="fas fa-times"></i></span>
+				</button>
+				<div class="modal-body text-center">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-12">
+								<!-- Portfolio Modal - Title-->
+								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Web Enrollment Application</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+									<div class="divider-custom-line"></div>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-content">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-lg-offset-0">
-							<div class="modal-body">
-								<h2>This site</h2>
-								<hr class="star-primary">
-								<div class="col-md-12 col-lg-8">
-									<iframe src="http://connor.stutsr.im" ></iframe>
-								</div>
-								<div class="col-md-12 col-lg-4">
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5" src="assets/img/portfolio/Enrollment.png" alt="Web Enrollment" />
+							</div>
+							<div class="col-lg-4">
+								<!-- Portfolio Modal - Text-->
+								<a href="https://enrollment-demo.azurewebsites.net">
 									<p>
-									This very website you're viewing right now. If it were possible to stream live footage of you looking at this webpage on your computer, like in that scene from Spaceballs, I would. Sadly I'll have to make due with an iframe instead.</p>
-									<ul class="list-inline item-details">
-										<li>Technologies:</li>
-										<li><strong>HTML</strong></li>
-										<li><strong>CSS</strong></li>
-										<li><strong>JavaScript</strong></li>
-										<li><strong>Bootstrap</strong></li>
-									</ul>
-									<ul class="list-inline item-details">
-										<li>Source:
-											<strong>
-												<a href="https://github.com/ConnorStutsrim/ConnorStutsrim.github.io">
-													Github.com/ConnorStutsrim/ConnorStutsrim.github.io
-												</a>
-											</strong>
-										</li>
-									</ul>	
-									<ul class="list-inline item-details">
-										<li>Client:
-											<strong>Myself</strong>
-										</li>
-										<li>Date:
-											<strong>April 2017 - Ongoing</strong>
-										</li>
-									</ul>
-								</div>
-								<div class="col-md-12 col-lg-12">
-									<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-								</div>
+										<strong>Application Demo</strong>
+									</p>
+								</a>
+								<p>An ASP.NET MVC application for users to register extensive personal, medical, and family information. This project focused on client-side validation for responsiveness, device and browser-agnostic performance, and robust application-flow. This application was developed from the beginning stages of specification gathering to the end with presenting the final project. It served as a proof of concept of the viability of replacing existing paper forms for information-gathering and human labor for input verification.</p>
+								<ul class="list-inline item-details">
+									<li>Technologies used:</li>
+									<li><strong>ASP.NET MVC 5</strong></li>
+									<li><strong>C# (Razor and LINQ)</strong></li>
+									<li><strong>HTML CSS JavaScript</strong></li>
+									<li><strong>Bootstrap</strong></li>
+									<li><strong>Entity Framework 6</strong></li>
+									<li><strong>Git</strong></li>
+									<li><strong>Visual Studio</strong></li>
+								</ul>
+								<ul class="list-inline item-details">
+									<li>
+										Source:
+										<strong>
+											<a href="https://github.com/ConnorStutsrim/Enrollment-Demo">
+												Github/Enrollment-Demo
+											</a>
+										</strong>
+									</li>
+								</ul>
+								<ul class="list-inline item-details">
+									<li>
+										Client:
+										<strong>NYSNA Pension Plan and Benefits Fund</strong>
+									</li>
+									<li>
+										Date:
+										<strong>May 2015 - August 2015</strong>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-8">
+								<button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
 			<div class="modal-content">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-lg-offset-0">
-							<div class="modal-body">
-								<h2>Workbook and Presentation-Creation Application</h2>
-								<h3>Language Migration and Application Maintenance</h3>
-								<hr class="star-primary">
-								<div class="col-md-12 col-lg-8">
-									<img src="img/portfolio/PowerPoint-Icon.png" class="img-responsive img-centered" alt="">
+				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true"><i class="fas fa-times"></i></span>
+				</button>
+				<div class="modal-body text-center">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-12">
+								<!-- Portfolio Modal - Title-->
+								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">This site</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+									<div class="divider-custom-line"></div>
 								</div>
-								<div class="col-md-12 col-lg-4">
-									<p>An Excel-based script that analyzed user-input data and generated multiple different types of Excel reports and PowerPoint presentations for use by the client. This project was ported from a legacy Visual Basic 6.0 to Visual Basic for Applications for a significant increase in program portability, user-friendliness, maintainability. In addition, features were added, bugs were fixed, and UX and UI were improved.</p>
-									<ul class="list-inline item-details">
-										<li>Technologies:</li>
-										<li><strong>Visual Basic 6.0</strong></li>
-										<li><strong>Visual Basic for Applications</strong></li>
-										<li><strong>Excel 2013, 2016</strong></li>
-										<li><strong>PowerPoint 2013, 2016</strong></li>
-									</ul>
-									<ul class="list-inline item-details">
-										<li>Client:
-											<strong>SolveIT Business Solutions</strong>
-										</li>
-										<li>Date:
-											<strong>April 2014</strong>
-										</li>
-									</ul>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-								</div>
+							</div>
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Image-->
+								<iframe src="http://connor.stutsr.im" scrolling="yes" frameborder="0"></iframe>
+							</div>
+							<div class="col-lg-4">
+								<!-- Portfolio Modal - Text-->
+								<p>
+									This very website you're viewing right now. If it were possible to stream live footage of you looking at this webpage on your computer, like in that scene from Spaceballs, I would. Sadly I'll have to make due with an iframe instead.
+								</p>
+								<ul class="list-inline item-details">
+									<li>Technologies:</li>
+									<li><strong>HTML</strong></li>
+									<li><strong>CSS</strong></li>
+									<li><strong>JavaScript</strong></li>
+									<li><strong>Bootstrap</strong></li>
+								</ul>
+								<ul class="list-inline item-details">
+									<li>
+										Source:
+										<strong>
+											<a href="https://github.com/ConnorStutsrim/ConnorStutsrim.github.io">
+												Github/ConnorStutsrim.github.io
+											</a>
+										</strong>
+									</li>
+								</ul>
+								<ul class="list-inline item-details">
+									<li>
+										Client:
+										<strong>Myself</strong>
+									</li>
+									<li>
+										Date:
+										<strong>April 2017 - Ongoing</strong>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-8">
+								<button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
 			<div class="modal-content">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-lg-offset-0">
-							<div class="modal-body">
-								<h2>Multi-Source Pivot Table Analytics</h2>
-								<hr class="star-primary">
-								<div class="col-md-12 col-lg-8">
-									<img src="img/portfolio/Excel-Icon.png" class="img-responsive img-centered" alt="">
+				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true"><i class="fas fa-times"></i></span>
+				</button>
+				<div class="modal-body text-center">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-12">
+								<!-- Portfolio Modal - Title-->
+								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Workbook and Presentation-Creation Application</h2>
+								<h3 class="portfolio-modal-title text-secondary text-uppercase mb-0">Language Migration and Application Maintenance</h3>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+									<div class="divider-custom-line"></div>
 								</div>
-								<div class="col-md-12 col-lg-4">
-									<p>An Excel-based script that sourced, compiled, analyzed, and organized data from multiple disparate sources for use in a user-friendly PivotTable. This project used VBA for cross-environment support and Power Pivot to support the hierarchical nature of the source data.</p>
-									<ul class="list-inline item-details">
-										<li>Technologies:</li>
-										<li><strong>Visual Basic for Applications</strong></li>
-										<li><strong>Excel 2010, 2013, 2016</strong></li>
-									</ul>
-									<ul class="list-inline item-details">
-										<li>Client:
-											<strong>SolveIT Business Solutions
-											</strong>
-										</li>
-										<li>Date:
-											<strong>March 2017 - May 2017
-											</strong>
-										</li>
-									</ul>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-								</div>
+							</div>
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5" src="assets/img/portfolio/PowerPoint-Icon.png" alt="PowerPoint report generator" />
+							</div>
+							<div class="col-lg-4">
+								<!-- Portfolio Modal - Text-->
+								<p>An Excel-based script that analyzed user-input data and generated multiple different types of Excel reports and PowerPoint presentations for use by the client. This project was ported from a legacy Visual Basic 6.0 to Visual Basic for Applications for a significant increase in program portability, user-friendliness, maintainability. In addition, features were added, bugs were fixed, and UX and UI were improved.</p>
+								<ul class="list-inline item-details">
+									<li>Technologies:</li>
+									<li><strong>Visual Basic for Applications</strong></li>
+									<li><strong>Excel 2013, 2016</strong></li>
+									<li><strong>PowerPoint 2013, 2016</strong></li>
+								</ul>
+								<ul class="list-inline item-details">
+									<li>
+										Client:
+										<strong>SolveIT Business Solutions</strong>
+									</li>
+									<li>
+										Date:
+										<strong>April 2014</strong>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-8">
+								<button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true"><i class="fas fa-times"></i></span>
+				</button>
+				<div class="modal-body text-center">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-12">
+								<!-- Portfolio Modal - Title-->
+								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Multi-Source Pivot Table Analytics</h2>
+								<!-- Icon Divider-->
+								<div class="divider-custom">
+									<div class="divider-custom-line"></div>
+									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+									<div class="divider-custom-line"></div>
+								</div>
+							</div>
+							<div class="col-lg-8">
+								<!-- Portfolio Modal - Image-->
+								<img class="img-fluid rounded mb-5" src="assets/img/portfolio/Excel-Icon.png" alt="Excel report generator" />
+							</div>
+							<div class="col-lg-4">
+								<!-- Portfolio Modal - Text-->
+								<p>An Excel-based script that sourced, compiled, analyzed, and organized data from multiple disparate sources for use in a user-friendly PivotTable. This project used VBA for cross-environment support and Power Pivot to support the hierarchical nature of the source data.</p>
+								<ul class="list-inline item-details">
+									<li>Technologies:</li>
+									<li><strong>Visual Basic for Applications</strong></li>
+									<li><strong>Excel 2010, 2013, 2016</strong></li>
+								</ul>
+								<ul class="list-inline item-details">
+									<li>
+										Client:
+										<strong>
+											SolveIT Business Solutions
+										</strong>
+									</li>
+									<li>
+										Date:
+										<strong>
+											March 2017 - May 2017
+										</strong>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-8">
+								<button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-		<!-- jQuery -->
-		<script src="vendor/jquery/jquery.min.js"></script>
+	<!-- Bootstrap core JS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 
-		<!-- Bootstrap Core JavaScript -->
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Third party plugin JS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
-		<!-- Plugin JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-		<!-- Theme JavaScript -->
-		<script src="js/portfolio.js"></script>
-		<script src="js/jqBootstrapValidation.js"></script>
-
-	</body>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+</body>
 
 </html>
